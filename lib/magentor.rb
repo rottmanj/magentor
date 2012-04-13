@@ -19,6 +19,9 @@ require 'magento/base'
 
 module Magento
   autoload :Cart,                "magento/cart"
+  autoload :CartCustomer,        "magento/cart_customer"
+  autoload :CartPayment,         "magento/cart_payment"
+  autoload :CartProduct,         "magento/cart_product"
   autoload :CategoryAttribute,   "magento/category_attribute"
   autoload :Category,            "magento/category"
   autoload :Country,             "magento/country"
