@@ -18,6 +18,7 @@ require 'magento/connection'
 require 'magento/base'
 
 module Magento
+  autoload :Cart,                "magento/cart"
   autoload :CategoryAttribute,   "magento/category_attribute"
   autoload :Category,            "magento/category"
   autoload :Country,             "magento/country"
