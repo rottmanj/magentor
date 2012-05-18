@@ -22,6 +22,7 @@ module Magento
   autoload :CartCustomer,        "magento/cart_customer"
   autoload :CartPayment,         "magento/cart_payment"
   autoload :CartProduct,         "magento/cart_product"
+  autoload :CartShipping,        "magento/cart_shipping"
   autoload :CategoryAttribute,   "magento/category_attribute"
   autoload :Category,            "magento/category"
   autoload :Country,             "magento/country"
